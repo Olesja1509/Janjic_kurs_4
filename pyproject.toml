@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "janjic-kurs-4"
+version = "0.1.0"
+description = ""
+authors = ["Olesja1509 <olesja.janjic@gmail.com>"]
+readme = "README.md"
+packages = [{include = "janjic_kurs_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
